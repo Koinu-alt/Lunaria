@@ -1,0 +1,50 @@
+
+/* Global improvements */
+:root {
+  --primary-color: #4c51bf;
+  --border-radius: 1rem;
+}
+
+img[alt="Lunaria Logo"] {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+h1 img {
+  display: inline;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Fancy myth section */
+.myth-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: #0e0d0d;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  flex-wrap: wrap;
+}
+
+.myth-text {
+  flex: 1;
+}
+
+.myth-gif img {
+  border-radius: var(--border-radius);
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .myth-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}

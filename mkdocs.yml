@@ -1,0 +1,54 @@
+site_name: Lunaria Documentation
+site_url: https://example.com
+
+repo_url: https://discord.gg/2W6EuPhsGn
+repo_name: GitHub
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Fira Code
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Shop: shop.md
+  - Raid Battle: Raid_System.md
+  - Collection: myth.md
+use_directory_urls: false
+
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - footnotes
+  - def_list
+  - pymdownx.superfences
+
+extra_css:
+  - assets/style.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/2W6EuPhsGn
+    - icon: fontawesome/solid/envelope
+      link: mailto:majinsupport@example.com
