@@ -25,7 +25,7 @@ body {
   display: flex;
   align-items: center;
   gap: 2rem;
-  background: #0e0d0d;
+  background: #0c0c0c;
   padding: 2rem;
   border-radius: var(--border-radius);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -41,7 +41,7 @@ body {
   border-radius: var(--border-radius);
   max-width: 100%;
   height: auto;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 16px rgba(247, 242, 242, 0.1);
 }
 
 @media (max-width: 768px) {
